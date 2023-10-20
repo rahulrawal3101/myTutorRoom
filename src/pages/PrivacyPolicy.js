@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         <>
             <Header />
             <Grid container >
-                <Grid item lg={12} md={12} sm={12} xs={12} sx={{ height: '350px', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundImage: `url(${termcondition})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'ceenter' }}>
+                <Grid item lg={12} md={12} sm={12} xs={12} sx={{ height: '400px', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundImage: `url(${termcondition})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'ceenter' }}>
                     <Typography variant='h2' sx={{ fontSize: { lg: '40px', md: '37px', sm: '30px', xs: '29px' }, color: 'white', fontWeight: '700' }}>Privacy Policy</Typography>
                 </Grid>
                 <Grid item lg={12} md={12} sm={12} xs={12} sx={{ backgroundImage: `url(${gradient})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', padding: '20px 5px' }}>

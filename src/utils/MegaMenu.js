@@ -22,8 +22,9 @@ const MegaMenu = ({ title = "GiveTitleName", data = [], navigateHandlerTitleRout
             borderBottom: '3px solid transparent',
             padding: '5px 5px',
             textTransform: 'unset',
-            fontSize: {lg:'18px',md:"17px",sm:"15px",xs:"13px"},
+            fontSize: {lg:'18px',md:"15px",sm:"15px",xs:"13px"},
             fontWeight: 900,
+            
             
             
             
@@ -38,8 +39,10 @@ const MegaMenu = ({ title = "GiveTitleName", data = [], navigateHandlerTitleRout
             mt: '10px',
             fontWeight: 900,
             lineHeight: 'initial',
-            padding: '10px 0px',
+            padding: '10px 10px',
             width: 'fit-content',
+            
+            
             
            
             

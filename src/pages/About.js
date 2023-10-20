@@ -31,38 +31,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import WhyUs from '../components/WhyUs';
 
-const data = [
-    {
-        logo: team,
-        number: '16+',
-        text: 'Team Members'
-    },
-    {
-        logo: first,
-        number: '41',
-        text: 'First Position'
-    },
-    {
-        logo: email,
-        number: '76',
-        text: 'Email Campaigns'
-    },
-    {
-        logo: seo,
-        number: '96',
-        text: 'SEO Campaigns'
-    },
-    {
-        logo: years,
-        number: '12',
-        text: 'Years in Marketing'
-    },
-    {
-        logo: web,
-        number: '143',
-        text: 'Web Analytics'
-    }
-];
+
 
 const About = () => {
 

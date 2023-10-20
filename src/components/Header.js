@@ -40,7 +40,7 @@ export default function Header() {
                         <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", alignItems: "center", ml: "30px" }}>
 
 
-                            {state.currentScreenSize > 918 && <Box sx={{ display: "flex", justifyContent: "space-between", width: { lg: "65%", md: "90%", sm: "90%", xs: "90%" }, }}>
+                            {state.currentScreenSize > 918 && <Box sx={{ display: "flex", justifyContent: "space-between", width: { lg: "700px", md: "640px", sm: "600px", xs: "600px" } }}>
                                 <MegaMenu title="Home" />
                                 <MegaMenu title="About" navigateHandlerTitleRoute='/about' />
                                 <MegaMenu title="Services" data={servivessection}  navigateHandlerTitleRoute='/services' />
@@ -50,13 +50,11 @@ export default function Header() {
                                 <MegaMenu title="Contact" navigateHandlerTitleRoute='/contact' />
                             </Box>}
 
-                            <Box sx={{ display: "flex", justifyContent: "right", width: { lg: "35%", md: "10%", sm: "100%", xs: "100%" } }}>
-                                {/* <IconButton sx={{ color: state.trigger ? SECONDARY_COLOR : MAIN_COLOR, '&:hover': { opacity: 0.6 }, transition: "all 0.70s ease", }}>
-                                <SearchOutlinedIcon />
-                            </IconButton> */}
-                                <Button variant='outlined' sx={{ border: state.trigger && `1px solid ${SECONDARY_COLOR}`, "&:hover": { border: state.trigger && `1px solid ${SECONDARY_COLOR}` }, color: state.trigger ? SECONDARY_COLOR : 'white', fontSize: { lg: '16px', md: '15px', sm: '14px', xs: '14px' }, textTransform: 'unset', fontWeight: 900,mr: '10px' }}>Login</Button>
+                            <Box sx={{height:'35px',display: "flex", justifyContent: "right", width: { lg: "170px", md: "100%", sm: "100%", xs: "100%" }, }}>
+                               
+                                <Button variant='outlined' sx={{ border: state.trigger && `1px solid ${SECONDARY_COLOR}`, "&:hover": { border: state.trigger && `1px solid ${SECONDARY_COLOR}` }, color: state.trigger ? SECONDARY_COLOR : 'white', fontSize: { lg: '16px', md: '13px', sm: '12px', xs: '11px' }, textTransform: 'unset', fontWeight: 900,mr: '10px', height:'35px' , width:'fit-content' }}>Login</Button>
                                 {/* <MenuIcon onClick={() => dispatch({ type: "DRAWER_CLICKED", payload: true })} sx={{ ml: '20px', cursor: 'pointer',  }} /> */}
-                                <Button variant='outlined' sx={{ border: state.trigger && `1px solid ${SECONDARY_COLOR}`, "&:hover": { border: state.trigger && `1px solid ${SECONDARY_COLOR}` }, color: state.trigger ? SECONDARY_COLOR : 'white', fontSize: { lg: '16px', md: '15px', sm: '14px', xs: '14px' }, textTransform: 'unset', fontWeight: 900}}>Sign Up</Button>
+                                <Button variant='outlined' sx={{ border: state.trigger && `1px solid ${SECONDARY_COLOR}`, "&:hover": { border: state.trigger && `1px solid ${SECONDARY_COLOR}` }, color: state.trigger ? SECONDARY_COLOR : 'white', fontSize: { lg: '16px', md: '13px', sm: '12px', xs: '11px' }, textTransform: 'unset', fontWeight: 900, height:'35px'}}>Sign Up</Button>
                             </Box>
                         </Box>
 
